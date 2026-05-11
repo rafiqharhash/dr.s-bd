@@ -133,7 +133,7 @@ export default function ReasonsSection() {
             className="text-xl md:text-2xl text-white/50 italic max-w-xl mx-auto leading-relaxed"
             style={{ fontFamily: "var(--font-handwriting)", fontSize: "clamp(1.2rem, 3vw, 1.8rem)" }}
           >
-            "You are not just beautiful — you are magic."
+            &quot;You are not just beautiful — you are magic.&quot;
           </blockquote>
           <div className="mt-4 flex items-center justify-center gap-3">
             <div className="w-8 h-[1px] bg-rose-500/30" />

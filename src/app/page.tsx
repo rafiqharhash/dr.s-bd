@@ -8,14 +8,14 @@ const LoadingScreen = dynamic(() => import("@/components/ui/LoadingScreen"), { s
 const CustomCursor = dynamic(() => import("@/components/ui/CustomCursor"), { ssr: false });
 const ParticleField = dynamic(() => import("@/components/ui/ParticleField"), { ssr: false });
 const FloatingNav = dynamic(() => import("@/components/ui/FloatingNav"), { ssr: false });
-const HeroSection = dynamic(() => import("@/components/sections/HeroSection"));
-const TimelineSection = dynamic(() => import("@/components/sections/TimelineSection"));
-const ReasonsSection = dynamic(() => import("@/components/sections/ReasonsSection"));
-const GallerySection = dynamic(() => import("@/components/sections/GallerySection"));
-const PoetrySection = dynamic(() => import("@/components/sections/PoetrySection"));
-const LetterSection = dynamic(() => import("@/components/sections/LetterSection"));
-const MusicSection = dynamic(() => import("@/components/sections/MusicSection"));
-const FinalSection = dynamic(() => import("@/components/sections/FinalSection"));
+const HeroSection = dynamic(() => import("@/components/sections/HeroSection"), { ssr: false });
+const TimelineSection = dynamic(() => import("@/components/sections/TimelineSection"), { ssr: false });
+const ReasonsSection = dynamic(() => import("@/components/sections/ReasonsSection"), { ssr: false });
+const GallerySection = dynamic(() => import("@/components/sections/GallerySection"), { ssr: false });
+const PoetrySection = dynamic(() => import("@/components/sections/PoetrySection"), { ssr: false });
+const LetterSection = dynamic(() => import("@/components/sections/LetterSection"), { ssr: false });
+const MusicSection = dynamic(() => import("@/components/sections/MusicSection"), { ssr: false });
+const FinalSection = dynamic(() => import("@/components/sections/FinalSection"), { ssr: false });
 
 export default function HomePage() {
   const [loaded, setLoaded] = useState(false);

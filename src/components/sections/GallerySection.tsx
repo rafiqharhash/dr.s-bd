@@ -120,7 +120,8 @@ export default function GallerySection() {
                   alt={photo.alt}
                   fill
                   className="object-cover object-center group-hover:scale-110 transition-transform duration-700"
-                  sizes="(max-width: 768px) 50vw, 25vw"
+                  sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                  loading="lazy"
                 />
                 {/* Color overlay on hover */}
                 <div

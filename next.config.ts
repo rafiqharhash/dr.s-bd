@@ -5,9 +5,6 @@ const nextConfig: NextConfig = {
     domains: [],
     formats: ["image/webp", "image/avif"],
   },
-  experimental: {
-    optimizePackageImports: ["framer-motion"],
-  },
 };
 
 export default nextConfig;
